@@ -1,0 +1,130 @@
+body {
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.large {
+    margin: 0;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1253px;
+    height: 678px;
+    background: #1C1C1C;
+}
+
+.box {
+
+    align-items: center;
+    justify-content: center;
+    width: 550px;
+    height: 550px;
+    left: 61px;
+    top: 64px;
+
+
+    background: #ECFDF5;
+}
+
+
+.boxtwo {
+    padding: 20px 60px;
+    margin: 0;
+    position: relative;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+
+p {
+    margin: 0%;
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 40px;
+    /* or 100% */
+
+    letter-spacing: -0.05em;
+
+    /* night */
+
+    color: #2B283A;
+}
+
+.pass {
+    color: #10B981;
+}
+
+.warning {
+    margin-top: 10px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    /* identical to box height, or 140% */
+    color: #6B7280;
+}
+
+button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 9px 17px 9px 15px;
+    gap: 12px;
+    margin-top: 60px;
+    width: 191px;
+    height: 42px;
+    left: 52px;
+    top: 284px;
+
+    background: #10B981;
+    /* shadow/sm */
+
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+}
+
+#random-one {
+    text-align: center;
+    display: table-cell;
+  vertical-align: middle;
+    color: #5DEF92;
+    width: 211px;
+    height: 39px;
+    left: 52px;
+    top: 396px;
+    margin-right: 20px;
+    background: #273549;
+    border-radius: 6px;
+}
+
+#random-two {
+    text-align: center;
+    display: table-cell;
+  vertical-align: middle;
+    color: #5DEF92;
+    width: 211px;
+    height: 39px;
+    left: 52px;
+    top: 396px;
+    background: #273549;
+    border-radius: 6px;
+}
+
+.results {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+}
+
+.resultone {
+    margin-right: 20px;
+}
